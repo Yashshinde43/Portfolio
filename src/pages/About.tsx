@@ -99,11 +99,11 @@ const About = () => {
 					<div className="relative inline-block group">
 						<div className="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent rounded-full blur-xl"></div>
 						<div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[28rem] lg:h-[20rem] mx-auto overflow-hidden rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
-							<img
-								src="/profile/profile.jpg"
-								alt="Yash Shinde"
-								className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-							/>
+						<img
+							src="/profile/profilepic.jpg"
+							alt="Yash Shinde"
+							className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+						/>
 							<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 						</div>
 						
