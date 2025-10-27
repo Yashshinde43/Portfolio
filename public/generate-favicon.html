@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate YS Favicon</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #f0f0f0; }
+        .favicon-container { 
+            width: 32px; 
+            height: 32px; 
+            background: #000000; 
+            border-radius: 6px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin: 20px;
+        }
+        .favicon-text { 
+            color: #ffffff; 
+            font-family: Arial, sans-serif; 
+            font-size: 18px; 
+            font-weight: bold; 
+        }
+        .instructions {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>YS Favicon Generator</h2>
+        <p>Right-click on the favicon below and save as "favicon.png" to replace the Next.js icon.</p>
+        <p>Make sure to save it as a 32x32 PNG file.</p>
+    </div>
+    
+    <div class="favicon-container">
+        <div class="favicon-text">YS</div>
+    </div>
+    
+    <div class="instructions">
+        <h3>Alternative: Use SVG</h3>
+        <p>You can also use the SVG version directly by updating the favicon references to point to "favicon.svg" instead of "nextjs.png".</p>
+    </div>
+</body>
+</html>
