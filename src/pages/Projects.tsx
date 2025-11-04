@@ -25,7 +25,7 @@ const projects = [
 			"Implemented JWT-based authentication, bcrypt hashing, and REST APIs for secure user management.",
 			"Used Web Speech API for real-time speech recognition and interaction.",
 		],
-		image: '/projects_img/virtual-assistant.png',
+		image: '/projects_img/virtualai.png',
 		github: 'https://github.com/Yashshinde43/Virtual-Assistant',
 		live: 'https://ai-virtual-assistant-d4aw.onrender.com',
 		tags: ["MERN-Stack", "Gemini AI", "Tailwind CSS"]
@@ -158,11 +158,11 @@ const Projects = () => {
 							{/* Main Card */}
 							<div className="relative bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden hover:bg-white/10 transition-all duration-500 h-full flex flex-col">
 								{/* Project Image */}
-								<div className="relative">
+								<div className="relative h-56 sm:h-64 md:h-72">
 									<motion.img
 										src={project.image}
 										alt={project.title}
-										className="w-full h-54 object-cover transition-transform duration-700"
+										className="w-full h-full object-cover transition-transform duration-700"
 										whileHover={{ scale: 1.02 }}
 									/>
 									<div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
