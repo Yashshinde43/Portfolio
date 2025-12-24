@@ -6,6 +6,18 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const projects = [
 	{
+		title: 'Social Connect',
+		description: [
+			"A comprehensive social media backend application built with Next.js, featuring user authentication, content sharing, social interactions, and admin management.",
+			"Developed key social features like user profiles, follow/unfollow, likes, comments, and a personalized feed, along with real-time notifications via Supabase Realtime",
+			"Implemented secure JWT-based user authentication, Supabase Email Authentication, complete with password hashing, session handling, and role-based access (users vs admins)",
+		],
+		image: '/projects_img/image.png',
+		github: 'https://github.com/Yashshinde43/socialconnect',
+		live: 'https://socialconnect-lime.vercel.app',
+		tags: ["Next.js", "TypeScript", "PostgreSQL via Supabase", "Zustand", "JWT", "Tailwind CSS", "Shadcn"]
+	},
+	{
 		title: 'Trackify',
 		description: [
 			"Full-Stack E-commerce product scraping site of Amazon with automated monitoring capabilities.",
